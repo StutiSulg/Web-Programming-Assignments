@@ -1,0 +1,69 @@
+<!--
+Stuti Sulgaonkar, Section: AK, Date: 11/19/2014
+Hw 7: Ascii Animation Viewer
+This website is an ascii animation viewer where you can chose the ascii
+to animate and change the size and speed of the animation. You can also 
+change the pre-existing animation to your choice.  	
+-->
+
+<!DOCTYPE html />
+<html>
+	<head>
+		<title>ASCII Animation Viewer</title>
+		<link href="ascii.css" type="text/css" rel="stylesheet" />
+		<script src="ascii.js" type="text/javascript"></script>
+		<script src="https://webster.cs.washington.edu/js/asciimation/animations.js" type="text/javascript"></script>
+		<script src="myanimation.js" type="text/javascript"></script>		
+		<script src="https://webster.cs.washington.edu/js/asciimation/gallery.js"></script>
+	</head>
+	<body>
+		<h1>ASCII Animation Viewer</h1>
+		<textarea id="textarea" rows="20" cols="80"> </textarea>
+		<div id="legends">
+			<fieldset>
+				<legend>Play Controls:</legend>
+				<button id="start">Start</button>
+				<button id="stop">Stop</button>
+			</fieldset>	
+			<fieldset>
+				<legend>Animation:</legend>
+				<select id= "anima" name="animation">
+					<option>Blank</option>
+					<option>Exercise</option>
+					<option>Juggler</option>
+					<option>Bike</option>
+					<option>Dive</option>
+					<option>Custom</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Size:</legend>
+				<select id="font" name="size">
+					<option value="7pt">Tiny</option>
+					<option value="10pt">Small</option>
+					<option value="12pt" selected>Medium</option>
+					<option value="16pt">Large</option>
+					<option value="24pt">Extra Large</option>
+					<option value="32pt">XXL</option>
+					<option value="custom">Custom</option> 
+				</select> 
+			</fieldset>
+			<fieldset>
+				<legend>Speed:</legend>
+				<label><input type="radio" name="speed" id="turbo" value="50" /> Turbo </label>
+				<label><input type="radio" name="speed" id="normal" value="250" checked/> Normal 
+				</label>
+				<label><input type="radio" name="speed" id="slo-mo" value="1500" /> Slo-Mo </label> 
+			</fieldset>
+		</div>
+
+		<div id="w3c">
+			<a href="https://webster.cs.washington.edu/validate-html.php"><img src="https://webster.cs.washington.edu/images/w3c-html.png" alt="Valid HTML5" /></a>
+			<br>
+			<a href="https://webster.cs.washington.edu/validate-css.php"><img src="https://webster.cs.washington.edu/images/w3c-css.png" alt="Valid CSS" /></a>
+			<br>
+			<a href="https://webster.cs.washington.edu/jslint/?referer"><img src="https://webster.cs.washington.edu/images/w3c-js.png" alt="Valid JS"></a>
+		</div>
+
+	</body>
+</html>

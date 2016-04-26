@@ -1,0 +1,150 @@
+/* 
+	Stuti Sulgaonkar, CSE 154. 10/15
+	CSE 154 Section AK
+	CSS style sheet for the  Rancid Tomatoes page named movie.php
+*/
+
+body { 
+   background-image: url(https://webster.cs.washington.edu/images/moviebg.png); 
+   font-size: 10pt; 
+   font-family: Arial, Helvetica, sans-serif; 
+   margin: 0pt; 
+   padding: 0pt; 
+}
+ 
+.image-banner  { 
+   background-image: url(https://webster.cs.washington.edu/images/rancidbannerbg.png);
+   background-repeat: repeat-x; 
+   height: 50px;
+   clear: both; 
+   
+   
+}
+ 
+.image-banner > img { 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;   
+}
+ 
+h1 {
+   font-family: Georgia, Times New Roman, serif; 
+   font-size: 24pt;  
+   text-shadow: 3px 3px #999999; 
+   text-align: center; 
+}
+ 
+#overall { 
+   box-shadow: 5px 5px 5px gray;
+   border-radius: 20px; 
+   background-color: #EEEEEE;
+   margin-left: auto;
+   margin-right: auto; 
+   overflow: hidden; 
+   width: 800px; 
+} 
+ 
+#review-content { 
+   float: left;
+   width: 550px;
+}
+ 
+.percentage { 
+   background-image: url(https://webster.cs.washington.edu/images/rottenlargebg.png);
+   background-repeat: repeat-x; 
+   color: red;
+   font-size: 48pt;  
+   font-weight: bold;
+   height: 83px;     
+} 
+ 
+.percentage  > img{
+   vertical-align: bottom; 
+}
+ 
+#column1, #column2 { 
+   margin-right: 2%;
+   float: left;
+   width: 47%;     
+} 
+ 
+#column1 { 
+   margin-left: 2%;
+}
+ 
+.comment { 
+   background-color: #FFFFFF; 
+   border: 2px solid #CCCCCC; 
+   border-radius: 20px; 
+   font-size: 10pt;
+   font-family: Georgia, Time New Roman, serif; 
+   overflow: hidden;
+   padding: 8px;  
+}
+ 
+.author { 
+   margin-bottom: 20pt; 
+   overflow: hidden; 
+}
+ 
+.image{ 
+   float: left;
+   margin-right: 5px; 
+}
+
+#overall > p, #general { 
+	background-color: #A2B964; 
+}
+
+#overall > p { 
+   clear: both;    
+   margin: 0pt;
+   padding: 5px;
+   text-align: center;  
+}
+ 
+#general { 
+   float: right; 
+   width: 250px;  
+}
+ 
+#sidebar { 
+   font-size: 10pt;
+   font-family: Arial, Helvetica,sans-serif; 
+   margin: 0pt; 
+   padding-right: 10pt;
+   padding-left: 10pt;
+   padding-top: 10pt;
+}
+ 
+dl { 
+   margin: 0pt; 
+}
+ 
+dt { 
+   font-weight: bold; 
+} 
+ 
+dd { 
+   margin-bottom: 10pt; 
+}
+ 
+dd > ul { 
+   list-style-type: none; 
+   margin-bottom: 0pt;
+   padding-left: 0pt;    
+} 
+
+.publication { 
+   font-style: italic; 
+}
+ 
+#links { 
+   margin-bottom: 0pt; 
+}
+ 
+#validation {
+   float: right; 
+}
+ 
+

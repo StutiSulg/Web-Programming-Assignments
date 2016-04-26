@@ -1,0 +1,40 @@
+/* 
+	Stuti Sulgaonkar, Section: AK, Date: 11/26/2014
+	Hw 8: Fifteen Puzzle
+	CSS style sheet for the  fifteen puzzle page named fiffteen.html
+*/
+
+body { 
+	font-family: cursive;
+	font-size: 14pt; 	
+}
+
+h1, p, #w3c { 
+	text-align: center;
+}
+
+.tile { 
+	background-image: url("background.jpg");
+	border: 5px solid black;
+	cursor: default;
+	font-size: 40pt;
+	height: 90px; 
+	position: absolute;
+	text-align: center; 
+	width: 90px;	
+}
+
+#blank { 
+	height: 100px;
+	position: absolute;
+	width: 100px;
+	
+}
+
+#puzzlearea { 
+	margin-right: auto; 
+	margin-left: auto;
+	height: 400px;	
+	position: relative;
+	width: 400px;	
+}

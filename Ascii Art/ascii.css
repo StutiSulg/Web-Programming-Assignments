@@ -1,0 +1,44 @@
+/*
+Stuti Sulgaonkar, Section: AK, Date: 11/19/2014
+Hw 7: Ascii Animation Viewer
+This is the CSS file for the ascii.html
+*/
+
+body { 
+	background-color: #CCCCFF;
+	font-family: sans-serif;
+	font-size: 14pt;
+	font-weight: bold; 
+}
+
+h1 {
+	font-size: 32pt; 
+	text-align: center; 
+	margin: 0px;
+}
+
+textarea { 
+	display: block;
+	margin-right: auto;
+	margin-left: auto; 
+	width: 90%;
+	height: 400px;
+	font-family: monospace;
+	font-size: 12pt; 
+
+}
+
+fieldset { 
+	border: 5px solid;
+	border-radius: 10px;
+	display: inline;
+	vertical-align: top;
+}
+
+#legends {
+	text-align: center; 
+}
+
+#w3c { 
+	float: right;
+}

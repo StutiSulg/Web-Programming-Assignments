@@ -1,0 +1,27 @@
+/*
+Stuti Sulgaonkar, Section: AK, Date: 12/3/2014
+Hw 7: Baby Names
+This is the CSS connected with the names.html which styles the page
+and graphs appropriatly 
+*/
+
+body {
+	font-size: 12pt;
+	font-family: Georgia, serif; 	
+}
+
+td > div {
+	background-color: #FFBBBB; 
+	text-align: center;
+	width: 50px;
+	font-weight: bold; 
+	
+}
+
+td {
+	height: 250px; 
+	vertical-align: bottom;	
+}
+q {
+	font-style: italic;
+}

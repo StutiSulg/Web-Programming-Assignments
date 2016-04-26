@@ -1,0 +1,50 @@
+/*
+Stuti Sulgaonkar	Date: 11/5 	Session: AK 
+CSE 154, Homework 6: Kevin Bacon 
+This is the CSS file for all the pages used in the Kevin Bacon website
+*/ 
+
+body { 
+	background: url("https://webster.cs.washington.edu/students/stutis/hw6/background_main.jpg");
+	color: white;
+	font-size: 12pt;  
+	font-family: Verdana, sans-serif;
+	margin: 0pt;	
+	text-align: center;    
+}
+
+#main, form, table { 
+	margin-right: auto; 
+	margin-left: auto;
+	width: 90%;	 
+}
+
+#banner, #w3c{ 
+	background: url("https://webster.cs.washington.edu/students/stutis/hw6/banner_background.png");
+	background-repeat: repeat-x;
+	color: white;
+	padding: 1em;	
+	font-size: 24pt; 
+	text-align: left;
+}
+
+form, table { 
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 40%;
+}
+
+table, td, th { 
+	border: 2px solid gray;
+
+}
+
+table { 
+	border-collapse: collapse;
+	width: 70%; 	
+}
+
+tr:nth-child(even) {
+	background-color: black;  
+
+}
